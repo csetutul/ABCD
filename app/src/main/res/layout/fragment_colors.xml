@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Colors"
+    android:id="@+id/frme">
+
+
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/colorname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/diplomata"
+            android:text="BLACK"
+            android:textColor="@color/black"
+            android:textSize="38sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/orang"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@color/orange"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/yellow"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/yellow"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pink"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/pink"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/purple"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/purple"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/green"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@color/green"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/blue"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/blueee"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/red"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/red"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@null"
+                app:iconPadding="0dp"
+                app:iconSize="24dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
